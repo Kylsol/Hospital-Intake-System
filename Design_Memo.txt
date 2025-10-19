@@ -1,0 +1,13 @@
+Why is a tree appropriate for the doctor structure?
+A tree fits the doctor reporting system because it models hierarchy naturally. 
+Each doctor connects to their direct reports the same way a parent connects to child nodes, 
+making it simple to trace relationships, add new doctors, or see how different teams connect.
+
+When might a software engineer use preorder, inorder, or postorder traversals?
+Preorder works best when you want to copy or export a full structure since it handles each parent before its children. 
+Inorder is useful when the data needs to be read in a specific order, like in a sorted tree. 
+
+How do heaps help simulate real-time systems like emergency intake?
+Heaps make it possible to always process the most urgent case first. Each time a patient is added or removed, 
+the heap reorganizes itself to keep priorities correct. This mirrors how real emergency systems constantly 
+reorder patients to ensure that the most critical ones are treated right away.
